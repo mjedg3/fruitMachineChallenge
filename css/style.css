@@ -1,0 +1,59 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .18rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #616161;
+
+
+}
+
+.SlotImages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 18px;
+
+}
+
+img {
+  justify-content: center;
+  object-fit: contain;
+  width: 11%;
+  height: 11%;
+  flex-direction: column;
+  align-self: auto;
+}
+
+.Start {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Reset {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.stats {
+
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+input {
+  height: 10px;
+  width: 50px;
+}
+
+.picture {
+  display: flex;
+  justify-content: space-evenly;
+  
+  
+ 
+}
